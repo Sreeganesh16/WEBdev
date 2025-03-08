@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <p>This is my first <b>paragraph</b> in my new <i>webpage</i>. This is going to be great. I am so excited I can hardly contain <b>myself</b>. Don't you just love paragraphs? I find them very useful.
+  <h1>Web Pages Are Exciting too</h1>
+  <p>Yes, that's right - web pages can be a lot of fun. Learning how to create web pages is easy and <b>entertaining</b>. This is my second <i>paragraph</i>. I hope you like it.</p>
+  <a href="https://www.google.co.in/">Link to Google</a>
+
+  <ul>
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Pears</li>
+    <li>Oranges</li>
+    <li>Grapes</li>
+  </ul>
+
+  <ul>
+    <li>Fruits</li>
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Mango</li>
+      <li>Orange</li>
+    </ul>
+  
+
+  
+    <li>Vegetables</li>
+    <ul>
+      <li>Spinach</li>
+      <li>Cauliflower</li>
+      <li>Beetroot</li>
+    </ul>
+  <li>Cereals</li>
+  <li>Nuts</li>
+  <script src="/index.js"></script>
+</body>
+
+</html>
