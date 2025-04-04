@@ -1,0 +1,28 @@
+
+
+table,td{
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+td{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.left1{
+    border:0px;
+    border-left: 1px solid black;
+}
+
+.right1{
+    border: 0px;
+    border-left: 1px solid black;
+}
+
+
+
