@@ -45,3 +45,9 @@ td{
 .play,.bottomleft,.bottomright{
     background-color: rgb(216, 240, 242);
 }
+
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 160px;
+}
