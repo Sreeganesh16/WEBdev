@@ -1,0 +1,89 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    
+.open-sans-uniquifier{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+    form{
+        width: 600px;;
+        margin: auto;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        background: url(https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: center;
+        padding: 60px;
+
+        border-radius: 15px;
+    }
+
+
+    input,textarea,select{
+        width: 100%;
+        padding: 4px;  
+    }
+
+    .formgroup {
+        margin-bottom: 20px;
+    }
+
+
+    select,input{
+        border:none;
+        border-radius: 2px;
+        opacity: 0.6;
+    }
+    .main{
+        margin-top: 10px;
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    .sublabel{
+        display: block;
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+    }
+
+    input[type="text"],input[type="email"],input[type="password"],input[type="number"],select{  
+        font-size: 1.2rem;
+        margin-bottom: 4px;
+    }
+
+    .input-row{
+        display: flex;
+        gap: 20px;
+    }
+
+    .input-field{
+        flex: 1;
+    }
+
+    button{
+        margin-top: 100px;
+        padding: 5px;
+        width: 70px;
+;
+        border: none;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    button:hover{
+        background-color: lightblue;
+        cursor: pointer;
+    }
