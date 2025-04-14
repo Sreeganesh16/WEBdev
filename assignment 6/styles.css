@@ -1,0 +1,176 @@
+.della-respira-regular {
+    font-family: "Della Respira", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    display: block;
+    margin-left: 330px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li{
+
+    margin-top: 35px;
+    float: left;
+    padding: 18px;
+    font-family: "Della Respira", serif;
+    border-top: 1px solid black;
+}
+
+.navbar li{
+    padding-top: 8px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Della Respira", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navbar li a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-top: 8px;
+    border-top: 2.5px solid black;
+}
+
+.navbar li a:active{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+    border-radius: 20px;
+}
+
+.italic{
+    font-weight: lighter;
+}
+
+.background{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(216,219,214);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.heading{
+    margin-top: 35px;
+    margin-left: 85px;
+    font-family: "Della Respira", serif;
+    letter-spacing: -0.4px;
+    line-height: 0.9;
+    
+}
+
+.line1{
+    height: 2px;
+    background-color: black;
+    width: 40%;
+    margin-left: 180px;
+    margin-top: 40px; (!important)
+}
+
+.flexbokz{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly ;
+    margin-left: 70px;
+    margin-top: 10px;
+
+}
+
+.box{
+    width: 70px;
+    height: 300px;
+}
+
+.leftbox{
+    margin-left: -10px;
+    margin-top: 40px;
+    flex-grow: 2;
+    padding-right:20px ;
+    font-family: "Della Respira", serif;
+    font-size: 0.9rem;
+    height: 220px;
+    line-height: 1.2;
+}
+
+.rightbox{
+    margin-left: 10px;
+    height: 260px;
+    flex-grow: 1;
+    font-family: Della Respira, serif;
+    font-size: 0.8rem;
+}
+
+.leftbox::first-letter{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    float: left;
+    line-height: 1.2;
+    margin-right: 4px;
+}
+
+.line2{
+    margin-left: 4%;
+    width: 64%; 
+}
+
+
+
+.navbar2 ul{
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar2 li {
+    font-style: italic;
+    float: left;
+    font-family: "Della Respira", serif;
+    border-top: 1px solid black;
+    padding-top: 8px;
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+
+.navbar2 li:first-child{
+    padding-right: 120px;;
+}
+
+.navbar2 li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 230px;
+    left:690px;
+    bottom: 320px;
+
+}
+
+.vertical{
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 600px;
+    right: -95px;
+    font-size: 0.85rem;
+
+}
