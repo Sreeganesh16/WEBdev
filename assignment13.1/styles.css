@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(234,236,239);
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+}
+
+.button2{
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+}
+
+@media ( max-width:767px ) { 
+    .firstpara {
+        display:none;
+    }
+}
+
+
+
+/*
+.container{
+    display: flex;
+} */
